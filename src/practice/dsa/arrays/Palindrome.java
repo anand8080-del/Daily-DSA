@@ -9,9 +9,7 @@ public class Palindrome {
 	     int first=0;
 	     
 	     int second=str.length()-1;
-	     
-	     
-	     
+	    
 	     while(first <= second)
 	     {
 	    	if(str.charAt(first)!=str.charAt(second))
