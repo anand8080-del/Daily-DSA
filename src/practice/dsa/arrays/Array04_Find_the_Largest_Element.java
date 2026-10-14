@@ -1,6 +1,6 @@
 package practice.dsa.arrays;
 
-public class Array4_Find_the_Largest_Element {
+public class Array04_Find_the_Largest_Element {
 	
 	public static void main(String[] args) {
 		

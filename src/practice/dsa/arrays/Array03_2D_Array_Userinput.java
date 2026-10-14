@@ -3,7 +3,7 @@ package practice.dsa.arrays;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Array3_2D_Array_Userinput {
+public class Array03_2D_Array_Userinput {
 	public static void main(String[] args) {
 
 		System.out.println("please enter the number");

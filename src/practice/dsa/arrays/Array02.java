@@ -2,7 +2,7 @@ package practice.dsa.arrays;
 
 import java.util.Arrays;
 
-public class Array2 {
+public class Array02 {
 	
 	public static void main(String[] args) {
 		

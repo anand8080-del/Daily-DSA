@@ -2,7 +2,7 @@ package practice.dsa.arrays;
 
 import java.util.Arrays;
 
-public class Array1 {
+public class Array01 {
 	
 	public static void main(String [] args)
 	{
@@ -13,7 +13,7 @@ public class Array1 {
 		
 	       
 		
-		Array1.change(arr, str);
+		Array01.change(arr, str);
 		
 		System.out.println(Arrays.toString(arr));
 		
