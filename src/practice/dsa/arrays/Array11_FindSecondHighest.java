@@ -13,12 +13,10 @@ public class Array11_FindSecondHighest {
 	int[] arr = {12,342,3425,3552,253253,325,25,53253,253,523,53,253,52,-2746,72136,-216,72,-187324};
 	
 	secondHighest(arr);
-	
 	}
 	
 	public static void secondHighest(int [] arr)
 	{
-		
 		
 		for(int i=0;i<arr.length;i++)
 		{
@@ -45,7 +43,6 @@ public class Array11_FindSecondHighest {
 	    System.out.println("the second Hieghest Number is: "+highest);
 	    
 	    System.out.println("the second hieghest number is: "+secondhighest);
-		
 	}
 
 }
