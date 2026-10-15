@@ -18,7 +18,6 @@ public class Array08_reverse_Array {
 		 * 
 		 */
 		
-		
 		int[] arr = {1,4,5,5,6,6,7,7,8,9,9};
 		
 	      reverse(arr);
@@ -43,18 +42,11 @@ public class Array08_reverse_Array {
 			arr[first] = arr[last];     //arr[first] = 9      last comes first
 			                                                                      // swap
 			arr[last] = temp;           //arr[last] = 1       first going last  
-			
-		}
-		   
+		} 
+		
 		first++;
 		last--;
-		
-		}
-		
-		
-		
+		}		
 	}
-	
-
 }
  
