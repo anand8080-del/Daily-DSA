@@ -11,11 +11,26 @@ public class Array06_find_Max_Element_Between_Specific_Range {
 		maxrange(arr,10,15);
 		System.out.println("the maximum value is: ");
 		System.out.println(Array06_find_Max_Element_Between_Specific_Range.maxrange(arr, 10, 15));
+		
+		
+		
+		
+		
 	}
 	
 	public static int maxrange(int []arr, int index1, int index2)
 	{
 		int max=Integer.MIN_VALUE;
+		
+		if(arr==null) 
+		{
+			return -1;           // this is the Edge Cases and also Known as Corner Cases that handles very imp 
+		}
+		
+		if(index1>index2)
+		{
+			return -1;       // observe the code and modify the not handled Corner Cases
+		}
 		
 		for(int i=index1;i<=index2;i++)
 		{
@@ -23,7 +38,6 @@ public class Array06_find_Max_Element_Between_Specific_Range {
 			{
 				max=arr[i];
 				
-				//
 			}
 		}
 		
