@@ -9,6 +9,7 @@ public class Array09_Sum_Avg_Array {
 		int[] arr = {12,23,34,56,78,999,987};
 		
 		sum(arr);
+		//
 		
 	}
 	
