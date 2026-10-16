@@ -9,13 +9,11 @@ public class Array15_Find_Missing_Number {
 		
 		int[] arr = {1,2,3,4,5,6,7,9};    // get sum of all the elements   that is actual value 
 		
-		findMissing(arr);
-		
+		findMissing(arr);	
 	}
 	
 	public static void findMissing(int[] arr)
-	{
-		
+	{	
 		int actualSum = 0;         
 		
 		int expectedSum =0;
@@ -24,7 +22,6 @@ public class Array15_Find_Missing_Number {
 		{
 			actualSum=arr[i]+actualSum;
 		}
-		
 		
 		for(int i=1; i<=9; i++)                // this will give you expected sum 
 		{
