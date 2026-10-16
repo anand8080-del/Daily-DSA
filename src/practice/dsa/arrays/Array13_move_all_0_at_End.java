@@ -14,6 +14,7 @@ public class Array13_move_all_0_at_End {
 		
 	}
 	
+	
 	public static void moveZero(int [] arr1)
 	{
 	     for(int i=0;i<arr1.length;i++)
